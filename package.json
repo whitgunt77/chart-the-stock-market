@@ -1,0 +1,23 @@
+{
+  "name": "chart-stock-market",
+  "version": "1.0.0",
+  "description": "Real-time stock tracking app with WebSockets and Chart.js",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "stocks",
+    "stock market",
+    "charts",
+    "real-time",
+    "tracking"
+  ],
+  "author": "Whitney Gunter",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^5.2.1",
+    "node-fetch": "^2.7.0",
+    "socket.io": "^4.7.5"
+  }
+}
